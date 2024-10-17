@@ -1,0 +1,248 @@
+.<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Potato Corner</title>
+	<!-- google fonts-->
+	<style type="text/css">
+
+		.header {
+			background-color: #108e45;
+			text-align: center;
+			padding: 20px;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			padding: 20px;
+			text-align: center;
+			background-color: #f06434;
+			margin-left: 200px;
+			margin-right: 200px;
+			border-radius: 10px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			box-shadow: 11px 7px 2px rgba(71, 82, 89, 0.75);
+		}
+
+		h2 {
+			padding: 50px;
+			padding-top: 500px;
+			color: #65aa82;
+			font-size: 35px;
+			text-align: center;
+		}
+
+		.menu {
+			direction: inline;
+		}
+
+		.menu-top {
+			list-style: none;
+		}
+
+		ul {
+  			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: #108e45;
+		}
+
+		li {
+  			float: left;
+		}
+
+		li a {
+  			display: block;
+  			color: #f9e600;
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  		}
+
+		li a:hover {
+  			background-color: #f06434;
+  		}
+
+  		body {
+  			color: #fce600;
+  		}
+
+  		.login,
+  		.signup {
+  			margin-left: 20%;
+  			margin-right: 20%;
+  			padding: 50px;
+  		}
+
+  		.column {
+  			float: left;
+ 			width: 33.33%;
+ 			text-align: center;
+		}
+
+		.row:after {
+ 			content: "";
+  			display: table;
+  			clear: both;
+		}
+
+		@media screen and (max-width: 600px) {
+  		.column {
+   			width: 100%;
+		}
+
+		.menuheader {
+		margin-left: 400px;
+		margin-right: 400px;
+		padding: 20px;
+		}
+
+		.div {
+			text-align: center;
+			padding: 100px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- section 1: menu-->
+	<div class="menu">
+		<img src="https://upload.wikimedia.org/wikipedia/en/5/56/Potato_Corner_Logo_2023.png" alt="logo" width="200px">
+
+		<ul class="menu-top">
+			<li style="float:right"><a href="#login-form">Login</a></li>
+			<li style="float:right"><a href="#sign-up">Signup</a></li>
+			<li><a href="#menuheader">Shop</a></li>
+		</ul>
+	</div>
+
+	<!-- section 2: products-->
+
+	<div class="menuheader">
+		<h1 style="color: white;">MENU</h1>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/regular-size@2x.png" width="180px">
+			<h3>REGULAR</h3>
+			<p></p>
+	</div>
+
+	<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/large-size@2x.png" width="180px">	
+			<h3>LARGE</h3>
+			<p></p>
+	</div>
+
+	<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/jumbo-size@2x.png" width="180px">
+			<h3>JUMBO</h3>
+			<p></p>
+	</div>
+
+<div class="row">
+		<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/mega-size@2x.png" width="180px">
+			<h3>MEGA</h3>
+			<p></p>
+	</div>
+
+	<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/giga@2x.png" width="180px">	
+			<h3>GIGA</h3>
+			<p></p>
+	</div>
+
+	<div class="column">
+			<img src="https://potatocorner.com/wp-content/uploads/2020/11/tera@2x.png" width="180px">
+			<h3>TERA</h3>
+			<p></p>
+	</div>
+
+	<!-- section 3: prods & prices-->
+
+	<div class="prices">
+		<h2>SIZES AND PRICES</h2>
+
+	<div class="row">
+		<div class="column">
+			<h3>REGULAR</h3>
+			<p>₱35</p>
+	</div>
+
+	<div class="column">
+			<h3>LARGE</h3>
+			<p>₱60</p>
+	</div>
+
+	<div class="column">
+			<h3>JUMBO</h3>
+			<p>₱90</p>
+	</div>
+
+<div class="row">
+		<div class="column">
+			<h3>MEGA</h3>
+			<p>₱119</p>
+	</div>
+
+	<div class="column">
+			<h3>GIGA</h3>
+			<p>₱189</p>
+	</div>
+
+	<div class="column">
+			<h3>TERA</h3>
+			<p>₱220</p>
+	</div>
+
+	<p style="text-align: center; padding-top: 125px; color: black;"><strong>Disclaimer:</strong></p>
+	<p style="text-align: center; color: black;">Prices may vary across branches.</p>
+
+	<!-- section 4: login-->
+	<div class="login" id="login-form">
+		<h3>Log in</h3>
+		<form>
+	<fieldset>
+		<label>Username:</label><br />
+		<input type="text">
+		<br /><label for="passcode">Password: </label><br />
+		<input type="Password" name="passcode">
+		<br />
+		<br />
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</fieldset>
+		</form>
+	</div>
+
+	<!-- section 5: signup-->
+	<div class="signup" id="sign-up">
+		<h3>Sign up</h3>
+			<form>
+	<fieldset>
+		<label>Email Address:</label><br />
+		<input type="text">
+		<br /><label>Username:</label><br />
+		<input type="text">
+		<br /><label for="passcode">Password: </label><br />
+		<input type="Password" name="passcode">
+		<br /><label for="passcode">Confirm Password: </label><br />
+		<input type="Password" name="passcode">
+		<br />
+		<br />
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</fieldset>
+		</form>
+	</div>
+</body>
+</html>
